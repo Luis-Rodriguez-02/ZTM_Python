@@ -34,3 +34,7 @@ print(5 % 4) # Returns the remainder of division
 print(round(3.1)) # Rounds down
 print(round(3.9)) # Rounds up
 print(abs(-20)) # Absolute value of -20
+
+# Operator Precedence
+print(20 - 3 * 4) # Prints 8 because -> order of operations
+# () ---> ** ----> * , / ---> + , -
