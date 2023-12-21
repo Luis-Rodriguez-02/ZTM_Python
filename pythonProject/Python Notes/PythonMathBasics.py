@@ -29,3 +29,6 @@ print(abs(-20)) # Absolute value of -20
 print(20 - 3 * 4) # Prints 8 because -> order of operations
 # () ---> ** ----> * , / ---> + , -
 
+# (Optional) -> bin() and complex
+bin(5)  # returns binary representation of a number
+print(int('0b101', 2))  # turns a binary number into an integer
