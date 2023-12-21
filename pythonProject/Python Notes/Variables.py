@@ -12,3 +12,12 @@ print(iq)  # Printing the variable we declared and instantiated before
 # Don't overwrite keywords
 
 user_iq = 150 # snake case,
+
+# Constants
+PI = 3.14
+
+# __hihi = 9 # dunders
+
+a, b, c = 1, 2, 3 # quick way for multiple vars
+
+
