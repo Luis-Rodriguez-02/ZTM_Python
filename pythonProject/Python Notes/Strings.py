@@ -20,4 +20,10 @@ last_name = 'Rodriguez'
 full_name = first_name + " " + last_name
 print(full_name)
 
+# String concatenation
+# Adding strings
+
+print('hello ' + ' Luis')
+print('hello' + 5)  # gives type error, must be with strings
+
 
