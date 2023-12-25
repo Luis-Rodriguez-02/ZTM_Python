@@ -24,6 +24,17 @@ print(full_name)
 # Adding strings
 
 print('hello ' + ' Luis')
-print('hello' + 5)  # gives type error, must be with strings
+# print('hello' + 5)  # gives type error, must be with strings
+
+# Type conversion
+
+print(type(str(100))) # String
+print(type(int(str(100)))) # Integer
+
+# Above is the same as doing this -> type conversion
+a = str(100)
+b = int(a)
+c = type(b)
+print(c)
 
 
