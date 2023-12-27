@@ -32,7 +32,18 @@ basket.remove(700)
 basket.clear()
 print(basket)  # Completely empties the list
 
+# List Methods 2 -> Continuation of List Methods
 
+# Index method -> gives the index of a specified value, can specify index range
+letters = ['a', 'b', 'c', 'd']
+print(letters.index('c'))
 
+# This could lead to out of bounds so we need to use a keyword
+print('c' in letters)
+if 'c' in letters:
+    print(letters.index('c'))
+
+# Count method -> returns how many occurrences of the value in the list
+letters.count('a')
 
 
