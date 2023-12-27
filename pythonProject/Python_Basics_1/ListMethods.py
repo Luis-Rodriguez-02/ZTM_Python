@@ -46,4 +46,22 @@ if 'c' in letters:
 # Count method -> returns how many occurrences of the value in the list
 letters.count('a')
 
+# List Methods 3 -> Continuation
+
+# sort() and sorted()
+basket2 = ['a', 'b', 'c', 'd','z', 'e']
+print(basket2)
+print(sorted(basket))  # sorted() -> creates a new array and doesn't modify the original basket
+basket2.sort()  # sort() -> modifies the existing list
+print(basket2)
+
+# reverse()
+basket2.reverse()
+print(basket2)
+
+
+
+
+
+
 
