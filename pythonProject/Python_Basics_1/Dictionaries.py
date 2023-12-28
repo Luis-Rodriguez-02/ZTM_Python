@@ -35,5 +35,32 @@ print(user)
 user2 = dict(name='Luis')
 print(user2)
 
+# Dictionary Methods 2
+
+print('basket' in user)  # Does this exist in that
+
+
+# Keys
+print('age' in user.keys())  # checks if this exists in keys of map
+print('hello' in user.values())  # checks if this exists in values of map
+print('hello' in user.items())  # grabs the whole thing -> 'greet': 'hello'
+
+print(user.items())
+
+
+# Clear method
+user.clear()  # Removes all items in dictionary
+
+# Copy method -> Copies dict
+user2 = user.copy()
+print(user2)
+
+# Pop / popitem method -> returns value of what was removed
+user2.pop('age')
+user2.popitem()  # Randomly removes an item
+
+
+# Update -> Updates key value
+user2.update({'ages':55})  # -> if it doesn't exist add item instead
 
 
