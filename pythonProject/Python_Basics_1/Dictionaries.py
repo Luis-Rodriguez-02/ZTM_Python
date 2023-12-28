@@ -21,7 +21,19 @@ print(my_list[0]['a'][1])
 # This is why we couldn't use something like a list
 # A key in a dictionary must be unique -> if you use same key first one is overridden
 
+# Dictionary Methods
+user = {
+    'basket': [1, 2, 3],
+    'greet': 'hello'
+}
 
+# print(user['age'])  # causes error because key doesn't exist; better method:
+print(user.get('age'))
+print(user.get('age', 55))  # In case age doesn't exist add a default value
+print(user)
+
+user2 = dict(name='Luis')
+print(user2)
 
 
 
