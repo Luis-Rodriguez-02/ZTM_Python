@@ -15,8 +15,3 @@ print(wizard1.email)
 # Introspection -> ability to determine the type of an object at runtime
 
 print(dir(wizard1))
-  
-
-
-
-
