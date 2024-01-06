@@ -30,3 +30,15 @@ wizard1.attack()
 
 archer1 = Archer('Robin', 500)
 archer1.attack()
+
+is_wizard = isinstance(wizard1, Wizard)  # we give it the (instance, class)
+print(is_wizard)
+
+# isinstance -> tells us if an instance is part of a class
+
+# Everything in object inherits from the base class in python -> this is why we have the auto dunder methods
+
+wizard1.__repr__
+[].__repr__
+
+
