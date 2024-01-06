@@ -11,6 +11,10 @@ class Wizard(User):
 
 wizard1 = Wizard("Merlin", "Dark", "Merlin@aol.com")
 print(wizard1.email)
+
+# Introspection -> ability to determine the type of an object at runtime
+
+print(dir(wizard1))
   
 
 
